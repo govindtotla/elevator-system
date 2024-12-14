@@ -1,0 +1,26 @@
+.floor-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  height:80px;
+}
+.elevator {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 4px;
+  transition: transform 1s ease-in-out;
+}
+.call-btn {
+  background-color: green;
+  color: white;
+}
+.call-btn.waiting {
+  background-color: red;
+}
